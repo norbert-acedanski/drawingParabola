@@ -66,13 +66,13 @@ int main()
 						cout<<"|";
 					else
 						if(i==90 && j==79)
-							cout<<">\n";
+							cout<<">";
 						else
 							if(i==90)
 								cout<<"-";
 							else
 								cout<<" ";
-			if(j==79 && i!=90)
+			if(j==79)
 				cout<<endl;
 		}
 	system("pause");
